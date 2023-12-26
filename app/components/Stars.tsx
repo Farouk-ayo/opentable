@@ -19,8 +19,8 @@ const Stars = ({ reviews, rating }: { reviews: Review[]; rating?: number }) => {
         else stars.push(fullStar);
       } else stars.push(emptyStar);
     }
-    return stars.map((star) => {
-      return <Image src={star} alt="" className="w-4 h-4 mr-1" />;
+    return stars.map((star, id) => {
+      return <Image key={id} src={star} alt="" className="w-4 h-4 mr-1" />;
     });
   };
   return <div className="flex items-center">{renderStars()}</div>;
