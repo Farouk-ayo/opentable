@@ -9,9 +9,9 @@ const Reviews = ({ reviews }: { reviews: Review[] }) => {
         saying
       </h1>
       <div>
-        {reviews.map((review) => {
-          <ReviewCard key={review.id} review={review} />;
-        })}
+        {reviews.map((review) => (
+          <ReviewCard key={review.id} review={review} />
+        ))}
       </div>
     </div>
   );
