@@ -64,7 +64,7 @@ model User{
   first_name String
   last_name String
   city String
-  email String
+  email String @unique
   phone String
   review Review[]
   created_at DateTime @default(now())
