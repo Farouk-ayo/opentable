@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import AuthModal from "./AurhModal";
+import AuthModal from "./AuthModal";
 
 const Navbar = () => {
   return (
