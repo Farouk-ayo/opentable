@@ -27,7 +27,7 @@ const Navbar = () => {
                 onClick={signOut}
               >
                 Sign out
-              </button>{" "}
+              </button>
             </div>
           ) : (
             <>
