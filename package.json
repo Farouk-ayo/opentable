@@ -12,7 +12,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.2",
-    "@prisma/client": "^4.8.1",
+    "@prisma/client": "^5.13.0",
     "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/react-datepicker": "^4.19.5",
@@ -23,7 +23,6 @@
     "jose": "^5.2.0",
     "jsonwebtoken": "^9.0.2",
     "next": "14.0.4",
-    "prisma": "^4.8.1",
     "react": "^18",
     "react-datepicker": "^4.25.0",
     "react-dom": "^18",
@@ -35,6 +34,7 @@
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
+    "prisma": "^5.13.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }

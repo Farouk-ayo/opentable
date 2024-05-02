@@ -65,7 +65,8 @@ export default function AuthModal({ isSignin }: { isSignin: boolean }) {
     setDisabled(true);
   }, [inputs]);
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
     if (isSignin) {
       signIn({ email: inputs.email, password: inputs.password }, handleClose);
     } else {
@@ -107,6 +108,7 @@ export default function AuthModal({ isSignin }: { isSignin: boolean }) {
                 <p className="text-sm">
                   {renderContent("Sign In", "Create Account")}
                 </p>
+                <p></p>
               </div>
               <div className="m-auto">
                 <h2 className="text-2xl font-light text-center">
